@@ -28,8 +28,14 @@ export const Form = styled.form`
 `
 
 export const FormContainer = styled.div`
+  max-width: 1024px;
+  width: 100%;
   position: relative;
   color: #eee;
+
+  @media (max-width: 768px) {
+    max-width: 80%;
+  }
 `
 
 export const HeroTitle = styled.h2`
